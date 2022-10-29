@@ -1,0 +1,31 @@
+.common-breadcrumb {
+  margin: 1rem 0 2rem 0;
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      a {
+        display: block;
+        color: #828282;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 18px;
+        &.slash {
+          padding: 0 10px;
+        }
+        &.active {
+          color: #131313;
+          font-weight: 600;
+        }
+        &.icon {
+          color: #131313;
+          font-weight: 600;
+        }
+        svg {
+          font-size: 36px;
+          margin-top: -4px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,177 @@
+.card-container {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+
+  >div {
+    padding-top: 8px;
+    padding-bottom: 5px;
+  }
+
+  .card-body {
+    padding: 0 !important;
+  }
+
+  .date-filter {
+    color: var(--ion-avatar-color);
+    padding-left: 8px;
+    text-transform: none;
+    // width: 150px;
+
+    &:active {
+      background-color: rgba(0, 0, 0, 0.04) !important;
+    }
+  }
+
+  a.dashboard-link {
+    color: var(--ion-avatar-color);
+
+    &:hover {
+      color: var(--ion-avatar-color-shade);
+    }
+  }
+
+
+
+  .MuiTypography-caption {
+    color: var(--ion-avatar-color)
+  }
+}
+
+.MuiToolbar-regular {
+  min-height: 48px !important;
+}
+
+.MuiTypography-caption {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+.mskcc-summary-dashboard-data-section {
+  padding: 0 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .dashboard-footer {
+    display: none;
+  }
+
+  .card-container .date-filter {
+    padding-left: 6px;
+  }
+
+  .date-filter:after {
+    content: 'Filter' !important;
+    display: inline-block;
+  }
+
+  .date-filter>span {
+    display: none;
+  }
+
+  .mskcc-summary-dashboard-data-section {
+    padding: 0;
+  }
+}
+
+.card-container-ah {
+  box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.09) !important;
+  border-radius: 12px !important;
+}
+
+.card-title-ah {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11px;
+  letter-spacing: -0.01em;
+  // display: inline;
+}
+
+.accesshope-dashboard-container {
+  overflow: auto;
+
+  .card-badge {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.01em;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: '#8CA6FF' !important;
+    float: right;
+    margin-top: -10px;
+  }
+
+  /* Scroll bar style starts here */
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border: 1px solid #C4C4C4;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    border-radius: 9px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7E7E7E;
+  }
+
+  /* Scroll bar style ends here */
+
+  .finance-cards {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .finance-reports-dashboard {
+    .card-container {
+      .card-body {
+        padding-left: 10px;
+      }
+    }
+  }
+
+  .case-status-reports-dashboard-container {
+    height: calc(100vh - 100px);
+
+    .filter-card-body > .MuiGrid-container > .MuiGrid-item {
+      margin-left: 10px;
+      max-width: 170px;
+      width: 170px;
+      flex-basis: 170px;
+    }
+
+    .filter-card-body > .MuiGrid-container > .MuiGrid-item > .MuiTextField-root > .MuiInput-formControl > .MuiInput-input {
+      text-align: center;
+    }
+
+  }
+
+  .table-title-1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: -0.01em;
+  }
+
+  .table-title-2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: -0.01em;
+  }
+}

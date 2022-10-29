@@ -1,0 +1,22 @@
+.case-assignment-filter-row {
+  margin-bottom: 10px;
+}
+.form-group-select {
+  > div {
+    position: relative;
+    font-size: 14px;
+    > div {
+      border-radius: 5px !important;
+      > div {
+        padding: 3px 12px !important;
+      }
+    }
+  }
+}
+.date-input {
+  width: 100%;
+  input {
+    padding: 12px 14px;
+    color: #828282;
+  }
+}

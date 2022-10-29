@@ -1,0 +1,22 @@
+
+  .rbc-event-content{
+    white-space: inherit!important;
+    .event-name{
+      font-size: 12px;
+    }
+  }
+  .rbc-btn-group{
+    display: flex!important;
+    align-items: flex-start;
+
+    // this have to change with custom toolbar component
+    button:nth-child(1){
+      order: 2;
+    }
+    button:nth-child(2){
+      order: 1;
+    }
+    button:nth-child(3){
+      order: 2;
+    }
+  }

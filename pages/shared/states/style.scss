@@ -1,0 +1,131 @@
+.table-edit-button {
+    background: #4E75FB !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: 6px 12px 6px 12px;
+    // flex: auto;
+}
+
+.holiday-list-container {
+    max-height: 300px;
+    overflow-x: auto;
+    border-top: 2px solid #DDDDDD;
+}
+
+.holiday-list {
+    border-bottom: 1px solid #DDDDDD;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.states-update-sub-heading {
+    font-size: 17px;
+    padding: 10px 0px 15px 15px;
+    display: contents;
+    font-weight: bold;
+}
+
+
+.add-state {
+    text-decoration-line: underline;
+    color: #4E75FB;
+    float: right;
+    cursor: pointer;
+}
+.remove-state {
+
+    text-decoration-line: underline;
+    color: #E74965;
+    float: right;
+    cursor: pointer;
+
+}
+
+.MuiFormGroup-root{
+    display: inline-flex !important;
+}
+.MuiFormControlLabel-label{
+    color: rgba(0,0,0,0.6)
+}
+/* Scroll bar style starts here */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border: 1px solid #C4C4C4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    border-radius: 9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7E7E7E;
+}
+
+/* Scroll bar style ends here */
+
+.holiday-list-modal {
+    .paper {
+        padding: 0px;
+    }
+
+    .modal-header {
+        padding: 15px;
+        margin-bottom: 0px !important;
+    }
+}
+
+.radiobtn-label {
+    font-size: 14px !important;
+  }
+
+
+.common-button-state {
+    display: flex;
+    gap : 10px;
+    justify-content: center;
+}
+
+// .MuiInputBase-root{
+//     height: 35px;
+// }
+
+.addState-modal {
+    .search-container-div {
+        padding: 10px 15px 10px 25px;
+    }
+}
+.confirm-state-list-container {
+    max-height: 300px;
+    overflow-x: auto;
+
+}
+
+.footer {
+    display: flex;
+    gap: 12px;
+    justify-content: right;
+    /* margin-top: 25px; */
+    padding: 2px;
+    margin: 12px;
+}
+
+.modal-list-checkbox{
+    padding:0px !important;
+    margin-right:6px;
+}
+
+.no-data-container{
+    text-align: center;
+    font-weight: BOLD;
+}

@@ -1,0 +1,122 @@
+.table-edit-button {
+    background: #4E75FB !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: 6px 12px 6px 12px;
+    // flex: auto;
+}
+
+.holiday-list-container {
+    max-height: 300px;
+    overflow-x: auto;
+    border-top: 2px solid #DDDDDD;
+}
+
+.holiday-list {
+    border-bottom: 1px solid #DDDDDD;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+    padding: 10px 15px 10px 15px;
+}
+
+.holiday-list-sub-heading {
+    font-size: 14px;
+    padding: 10px 0px 15px 15px;
+}
+
+.view-holidays {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #4E75FB;
+}
+
+/* Scroll bar style starts here */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border: 1px solid #C4C4C4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C4C4C4;
+    border-radius: 9px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7E7E7E;
+}
+
+/* Scroll bar style ends here */
+
+.holiday-list-modal {
+    .paper {
+        padding: 0px;
+    }
+
+    .modal-header {
+        padding: 15px;
+        margin-bottom: 0px !important;
+    }
+}
+
+.fp-routes {
+    padding-top: 15px;
+    font-weight: bold;
+    color: #828282;
+}
+
+.fp-routes>.fp-routes-text {
+    font-size: 15px;
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 8px;
+}
+
+.fp-routes>.c-routes {
+    font-weight: 600;
+}
+
+.edit-holiday-container {
+    background: #FFFFFF;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.09), 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: auto;
+}
+
+.edit-holiday-container {
+    margin-top: 20px;
+
+    .header {
+        background: #EEEEEE;
+        border-radius: 5px 5px 0px 0px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .date-picker-edit {
+        .MuiInputBase-root {
+            border: 1px solid #C4C4C4;
+            border-radius: 5px;
+        }
+    }
+
+    .footer {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}

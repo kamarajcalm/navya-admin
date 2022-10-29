@@ -1,0 +1,15 @@
+.employer-align-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .d-none {
+    display: none;
+  }
+  > div {
+    margin-right: 6px;
+    word-break: normal;
+  }
+  .dot {
+    font-weight: bold;
+}
+}

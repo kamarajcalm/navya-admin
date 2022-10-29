@@ -1,0 +1,24 @@
+.form-group-select {
+  margin-bottom: 1.5rem;
+  > div {
+    position: relative;
+    font-size: 14px;
+    > div {
+      border-radius: 5px !important;
+      > div {
+        padding: 3px 12px !important;
+      }
+    }
+  }
+  .error-message {
+    color: rgb(169, 68, 66);
+    position: absolute;
+    font-size: 12px;
+    bottom: -25px;
+    left: 0;
+    &.bottom {
+      bottom: 0px;
+    }
+
+  }
+}

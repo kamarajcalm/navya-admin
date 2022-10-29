@@ -1,0 +1,19 @@
+ion-item.selected {
+  --background: #f2f2f2;
+} 
+
+.split-pane-visible >.split-pane-side {
+  min-width: 250px !important;
+  max-width: 250px !important;
+}
+
+.icon-center {
+  display: flex;
+  align-content: center;
+  padding-right: 10px;
+  font-size: 25px !important;
+}
+
+.sub-menu-label {
+  font-size: 14px !important;
+} 
